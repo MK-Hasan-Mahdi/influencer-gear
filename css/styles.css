@@ -183,3 +183,38 @@ header{
     grid-template-columns: repeat(4, 1fr);
     justify-items: center;
 }
+
+/* fooer area start */
+
+footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #0A0826;;
+	padding: 40px 0px;
+	margin-top: 80px;
+}
+footer h1 {
+	font-size: 25px;
+	letter-spacing: 0.5px;
+	color: #ffffff;
+}
+
+footer p {
+	/* font-weight: bold; */
+	font-size: 14px;
+    letter-spacing: 0.5px;
+    color: #D9DBE1;
+    padding: 5px;
+}
+
+.social-icon{
+    margin-top: 10px;
+}
+
+.fa-instagram, .fa-twitter, .fa-youtube, .fa-facebook{
+    font-size: 25px;
+    color: white;
+    padding: 0px 5px;
+}
