@@ -15,34 +15,6 @@ header{
     padding: 30px 10%;
 }
 
-/* .navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.nav-area{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.flex-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-nav ul{
-    display: flex;
-    justify-content: center;
-    padding: 0;
-}
-nav ul li{
-    
-} */
-
 .nav-link{
     list-style: none;
 }
@@ -130,6 +102,10 @@ nav ul li{
 
 /* business area start */
 
+.business-area{
+    margin-bottom: 100px;
+}
+
 .business-icon-box{
     width: 1110px;
     height: 110px;
@@ -142,4 +118,26 @@ nav ul li{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+/* collection area start */
+
+.collection-area h2{
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 50px;
+}
+
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 35px;
+    justify-items: center;
+}
+
+.collection-banner img{
+    width: 300px;
+    height: 256px;
+    border-radius: 5px;
 }
