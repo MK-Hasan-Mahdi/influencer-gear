@@ -11,7 +11,7 @@
 
 header{
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
 }
@@ -20,9 +20,10 @@ header{
     font-weight: bold;
     font-size: 24px;
     line-height: 36px;
-    margin-right: 450px;
   }
-
+nav{
+    display: flex;
+}
 .nav-link{
     list-style: none;
 }
@@ -302,20 +303,39 @@ footer p {
     .container{
         width: 100%;
     }
+    header{
+        display: block;
+    }
+    .business-area{
+        display: none;
+    }
    .header-area{
     height: 150px;
     width: 100%;
     flex-direction: column;
     justify-content: center;
    }
-   .header-area ul {
+   .logo-area h5{
+       text-align: center;
+   }
+   nav{
+       display: none;
+   }
+   .header-area{
+       flex-direction: column;
+       padding-left: 0;
+       padding-right: 0;
+   }
+  /*  .header-area ul {
     margin: 0;
     padding: 0;
     justify-content: space-between;
-}   
+}  */  
+    .search-area{
+        display: none;
+    }
     .flex-container{
-        display: grid;
-        grid-template-columns: 1fr;
+        flex-direction: column;
     }
    .business-icon-box, .business-icon{
       display: flex;
@@ -323,12 +343,15 @@ footer p {
    }
    .collections{
        display: grid;
-       grid-template-columns:repeat(2, 1fr);
+       grid-template-columns: 1fr;
    } 
 
    .followus-gallery{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr;
+   }
+   .intro-leftside, .section-para{
+        width: 100%;
    }
     
 }
